@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: rgb(197 201 165 / 54%);
+}
+
+.container2 {
+    height: 90vh;
+    width: 35%;
+    margin: 35px 0;
+    display: flex;
+ 
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.nav img {
+    height: 33px;
+    width: 33px;
+    filter: invert(50%) sepia(100%) saturate(500%) ;
+}
+.nav img:hover{
+    color:aqua;
+    height:40px;
+    width:40px;
+    content: "hello santosh";
+}
+@media (max-width:400px){
+    .container{
+    
+    }
+    .container2{
+        width:90%;
+    }
+    #output{
+       font-size: 17px;
+       text-align: center;
+    }
+    #range{
+    -webkit-appearance: none;
+    width: 84% !important;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 24px !important;
+    position: relative;
+    }
+
+}
+#main-img{
+    height:300px;
+    width:300px;
+    border:8px solid rgb(171, 168, 168);
+    border-radius: 50%;
+    box-shadow: 1px 2px 3px rgb(224, 187, 187);
+    position: relative;
+    margin: 30px 25%;
+    margin-bottom: 0;
+}
+.img-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-con h3{
+    margin-top: 10px;
+    color:rgb(225, 128, 196);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.img-con p{
+    color:rgb(234, 133, 203);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#range{
+    -webkit-appearance: none;
+    width: 90%;
+    height: 6px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px 27px;
+    position: relative;
+}
+#range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+.manu{
+     display: flex;
+     justify-content: space-evenly;
+     margin: 20px 13%;
+}
+.middle #pause{
+    height:80px;
+    width:80px;
+}
+.pre #pre{
+    height:50px;
+    width:50px;
+}
+.post #post{
+    height:50px;
+    width:50px;
+}
+.pre , .post{
+    padding-top: 10px;
+}
+
+#output2{
+    font-size: 25px;
+    color: #f53192;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
